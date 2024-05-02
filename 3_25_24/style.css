@@ -1,0 +1,24 @@
+
+h1{
+    background-color: #acc582;
+    padding: 5px;
+    font-style: bold;
+    color: #000000;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.yls{
+    float: right;
+    margin: 0 0 5px 5px;
+    border-radius: 0%;
+    width: 100px;
+    height: 100px;
+}
+.clearright{
+    clear:right;
+}
+.p1{
+    background-color:burlywood;
+}
