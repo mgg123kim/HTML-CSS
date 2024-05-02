@@ -1,0 +1,73 @@
+
+body{
+    color:#8b3636;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image:url(background.png)
+}
+header{
+    background-color:#d2b48c;
+    padding: 10px 0;
+    text-align: center;
+    background-image:url()
+}
+header h1{
+    margin: 0;
+}
+#container{
+    padding: 1.25em;
+    width: 80%;
+    min-width: 800px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: #000000;
+}
+#wrapper{ 
+    background-color: beige;
+    width: 80%;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 3px 3px 3px #333;
+    margin-right: auto;
+    margin-left: auto; }
+nav{
+    justify-content: center;
+    padding: 10px 0 10px;
+    background-color: #d2b48c;
+    display: auto;
+}
+
+section{
+    background-color: #d2b48c;
+}
+.center {
+    box-shadow: 5px 5px 5px #828282;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+ }  
+ .lady_smiling {
+    float: right;
+    margin: 0 0 5px 5px;
+    border-radius: 0%;
+    width: 100px;
+    height: 100px;
+ }
+ .content{
+    box-sizing: border-box;
+    box-shadow: inset;
+    margin:20px;
+ }
+.content p {
+line-height: 1.6;
+}
+p{
+    text-indent: 4em;
+}
+footer{
+    font-size: 1em;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #d2b48c;
+}
