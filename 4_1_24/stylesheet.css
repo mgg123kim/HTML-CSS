@@ -1,0 +1,80 @@
+
+body{
+    background-color: #3c285d;
+    color:#3c285d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-image:url(flower.png);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-color: #91c8c2;
+    padding: 20px 0;
+    
+}
+
+#container{ 
+    padding: 1.25em;
+    min-width: 800px;
+    max-width: 960px;
+    margin-left: 100px;
+    border-radius: 0;
+}
+nav{
+    float: left;
+    padding-inline-end: 20px;
+    
+}
+nav li{
+    margin: 20px 0;
+}
+nav li a:hover{
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: cadetblue;
+    transition: background-color 0.3s ease;
+
+}
+nav ul{
+    font-weight: bold;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: left; 
+}
+nav a{
+    text-decoration: none;
+    display:block;
+}
+.barndoor{
+    float:right;
+    padding: 20px;
+}
+.center {
+    background-color: #fff;
+    color: #3c285d;
+    box-shadow: 5px 5px 5px #828282;
+    margin:100px;
+    width: 100%;
+ }  
+ .content{
+    margin:100px;
+ }
+ /*.content - removed Border Box: box-sizing: border-box;*/
+
+.content p {
+line-height: 1.6em;
+margin-left: 40px;
+}
+.list{
+    margin-left: 8%;
+}
+
+footer{
+    font-size: 1em;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #91c8c2;
+}
+
