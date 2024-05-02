@@ -1,0 +1,14 @@
+.redAndWhite
+      {background-color: blue; color:white}
+
+.companyname {
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.25em;
+}
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
